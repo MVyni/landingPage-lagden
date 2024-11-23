@@ -50,17 +50,32 @@ header section{
     font-size: 0.9rem;
 }
 
-.imagem{
-    position: fixed; /* Fixa a imagem na tela */
-    top: 20vh;
-    left: 10vw;
+.container-img{
     display: flex;
-    justify-content: center;
     align-items: center;
+    width: 90vw;
+    height: 93vh;
 }
 
-img{
-    width: 400px;
-    height: auto;
+.imagem{
+    width: 50%;
+    margin-left: 10vw;
 }
+img{
+    width: 450px;
+    height: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.infos-img{
+    margin-left: 5vw;
+    text-align: center;
+    margin-bottom: 18vh;
+}
+
+.info{
+    padding-top: 40px;
+    text-align: center;
+}
+
 
