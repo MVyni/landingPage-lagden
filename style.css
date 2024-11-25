@@ -65,6 +65,7 @@ img{
     width: 450px;
     height: auto;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
 }
 
 .infos-img{
@@ -78,4 +79,42 @@ img{
     text-align: center;
 }
 
+h2{
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+h4{
+    color: #000;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 1.2rem;
+}
+
+.content-services{
+    width: 90vw;
+    height: 80vh;
+    display: flex;
+    flex-wrap: wrap; /*faz com quem se precisar, o conteúdo vai para a linha debaixo*/
+    justify-content: center;
+    gap: 4rem;
+    align-items: center;
+    margin: auto; /*faz com que as imagens se afastem dos cantos*/
+}
+
+.serviceItens{
+    background-color: #fff;
+    height: 360px;
+    width: 280px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+
+.unha-img, .cilios-img, .sobrancelha-img, .tattoo-img{
+    width: 250px;
+    height: 260px;
+}
 
